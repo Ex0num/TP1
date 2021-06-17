@@ -24,7 +24,7 @@
 	 * \param sueldo int sueldo del empleado.
 	 * \return Employee* Retorna la direccion de memoria del empleado creado.
 	 */
-	Employee* producto_newParametros (char* nombre, int idEmpleado, int horasTrabajadas, int sueldo)
+	Employee* employee_newParametros (char* nombre, int idEmpleado, int horasTrabajadas, int sueldo)
 	{
 		Employee* pEmpleado = NULL;
 
