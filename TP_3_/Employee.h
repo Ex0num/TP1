@@ -18,7 +18,7 @@
 
 	//FUNCIONES EMPLOYEE
 	Employee* employee_new();
-	Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr);
+	Employee* employee_newParametros (char* nombre, int idEmpleado, int horasTrabajadas, int sueldo);
 	void employee_delete(Employee* this);
 
 	//------------------------------SETTER Y GETTERS-----------------------------------------------//
