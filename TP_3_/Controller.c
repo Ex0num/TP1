@@ -17,7 +17,7 @@
 	{
 		int retorno = -1;
 
-		if (path != NULL && pArrayListEmployee)
+		if (path != NULL && pArrayListEmployee != NULL)
 		{
 			FILE* filePuntero;
 
@@ -134,7 +134,7 @@
 					employee_setSueldo(pNewEmpleado,sueldoEmpleado);
 					employee_setId (pNewEmpleado,valorNuevoId);
 
-					//Añado a la ll el nuevo puntero a empleado.
+					//AÃ±ado a la ll el nuevo puntero a empleado.
 					ll_add(pArrayListEmployee, pNewEmpleado);
 
 					retorno = 0;
